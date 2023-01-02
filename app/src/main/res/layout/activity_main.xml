@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:font="@font/goodkids"
+            android:fontFamily="@font/distorter"
+            android:gravity="center"
+            android:text="@string/terserah"
+            android:textSize="@dimen/_55sdp" />
+
+        <TextView
+            android:id="@+id/subjudul"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:font="@font/goodkids"
+            android:fontFamily="@font/janturtype"
+            android:gravity="center"
+            android:text="@string/silahkan_di_pilih"
+            android:textSize="@dimen/_25sdp" />
+
+        <TextView
+            android:id="@+id/subjudul2"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:font="@font/goodkids"
+            android:fontFamily="@font/janturtype"
+            android:gravity="center"
+            android:text="@string/mau"
+            android:textSize="@dimen/_25sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="232dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_wisata"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/goodkids"
+            android:gravity="center"
+            android:onClick="pindah_wisata"
+            android:text="@string/btn_wisata"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="334dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_minuman"
+            android:layout_width="200dp"
+            android:layout_height="67dp"
+            android:fontFamily="@font/goodkids"
+            android:gravity="center"
+            android:onClick="pindah_minuman"
+            android:text="@string/btn_minuman"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="434dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_makanan"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/goodkids"
+            android:gravity="center"
+            android:onClick="pindah_makanan"
+            android:text="@string/btn_makanan"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="39dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="106dp"
+            android:layout_height="51dp"
+            android:onClick="pindah_about"
+            android:text="@string/btn_about"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
